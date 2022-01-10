@@ -10,4 +10,8 @@ At the end of the installation of the dependencies, it is necessary to run the c
 
 Finally you can run the project with "python manage.py runserver".
 
+They can enter the Django admin, either as common users or as administrators. The administrator will be able to see all the bookmarks and common users will only be able to see their own bookmarks.
+
+A group of permissions was created, assigned to a role, so that common users do not have access to any component of the system that you do not want to enable to everyone.
+
 To test the endpoints, please copy and paste the respective commands found in the "Test_endpoints" file.
