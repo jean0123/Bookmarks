@@ -1,0 +1,4 @@
+private bookmarks =>
+	curl --user prueba:abcd0123 --request GET http://127.0.0.1:8000/api/usr/bookmarks/
+public bookmarks => 
+	curl --request GET http://127.0.0.1:8000/api/usr/bookmarks_public/
